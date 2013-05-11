@@ -4,12 +4,8 @@ get '/' do
   ken = 'けん'
   prefixes = %w(さん くん ちゃん)
 
-  loop do
-    if (ken + (prefix = prefixes.sample)).size < 140
-      ken << prefix
-    else
-      break
-    end
+  while (ken + (prefix = prefixes.sample)).size < 140 do
+    ken << prefix
   end
 
   ken + '…'
