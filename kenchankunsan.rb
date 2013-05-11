@@ -2,14 +2,14 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  @ken = 'けん'
+  ken = 'けん'
   suffixes = %w(さん くん ちゃん)
 
-  while (@ken + (suffix = suffixes.sample)).size < 140 do
-    @ken << suffix
+  while (ken + (suffix = suffixes.sample)).size < 140 do
+    ken << suffix
   end
 
-  @ken + '…'
+  ken  = ken + '…'
 
-  haml :kenchan
+  haml :kenchan, locals: { ken: ken }
 end
