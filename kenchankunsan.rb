@@ -2,10 +2,10 @@ require 'sinatra'
 
 get '/' do
   ken = 'けん'
-  prefixes = %w(さん くん ちゃん)
+  suffixes = %w(さん くん ちゃん)
 
-  while (ken + (prefix = prefixes.sample)).size < 140 do
-    ken << prefix
+  while (ken + (suffix = suffixes.sample)).size < 140 do
+    ken << suffix
   end
 
   ken + '…'
