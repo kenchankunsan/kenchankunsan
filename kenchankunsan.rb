@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'haml'
 
 get '/' do
   ken = 'けん'
@@ -8,5 +9,7 @@ get '/' do
     ken << suffix
   end
 
-  ken + '…'
+  ken  = ken + '…'
+
+  haml :kenchan, locals: { ken: ken }
 end
