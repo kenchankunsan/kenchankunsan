@@ -1,5 +1,8 @@
 require 'sinatra'
+require 'sinatra/respond_to'
 require 'haml'
+
+Sinatra::Application.register Sinatra::RespondTo
 
 get '/' do
   ken = 'けん'
@@ -11,5 +14,8 @@ get '/' do
 
   ken  = ken + '…'
 
-  haml :kenchan, locals: { ken: ken }
+  respond_to do |format|
+    format.html { haml :kenchan, locals: { ken: ken } }
+    format.text { ken }
+  end
 end
