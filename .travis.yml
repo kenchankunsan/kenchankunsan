@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+- 2.0.0
+deploy:
+  providor: heroku
+  api_key:
+    secure: qJhJzpETsAAqgwgqsFUwJrWf+eR2ib6DSTqYm26k5wjPpfsQrLUQt+B4cAaSjG3mkpbusSOWzmmedtNXXErho8elwRwVdunbCt5/7IRIGscH2y4hws9rqfqq0aReu9yfr3nr8O4mgHWa0GhVJL7ppTPi4P+nrLur5b2HlTinMh0=
