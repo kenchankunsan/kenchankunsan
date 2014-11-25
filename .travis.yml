@@ -1,6 +1,8 @@
 language: ruby
 rvm:
-- 2.0.0
+- 2.2.0
+script:
+  - ruby --version
 deploy:
   providor: heroku
   api_key:
