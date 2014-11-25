@@ -16,6 +16,6 @@ describe 'けんちゃんくんさん' do
   end
 
   it "says /けん|ちゃん|くん|さん/" do
-    last_response.body.must_match /けん|ちゃん|くん|さん/i
+    last_response.body.must_match /けん|ちゃん|くん|さん/
   end
 end
