@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/eventmachine/eventmachine.git
-  revision: 4d53154a9ea420cdc65bf8985b9156ad4c3730c9
+  revision: 2794ccd08d04f2d03accc9204727cc0ccdf119bc
   specs:
     eventmachine (1.0.3)
 
