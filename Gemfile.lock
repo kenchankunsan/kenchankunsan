@@ -1,24 +1,24 @@
 GIT
   remote: git://github.com/eventmachine/eventmachine.git
-  revision: 4d53154a9ea420cdc65bf8985b9156ad4c3730c9
+  revision: 487305151d1f5441b597400fa8d062361e2d86b2
   specs:
-    eventmachine (1.0.3)
+    eventmachine (1.0.4)
 
 GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.1.9)
-    haml (4.0.5)
+    haml (4.0.6)
       tilt
-    maxitest (1.0.1)
+    maxitest (1.0.3)
       minitest (>= 5.0.0, < 5.5.0)
     minitest (5.4.3)
-    rack (1.5.2)
+    rack (1.6.0)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.3.2)
+    rake (10.4.2)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
