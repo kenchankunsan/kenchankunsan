@@ -10,13 +10,13 @@ GEM
     daemons (1.1.9)
     haml (4.0.6)
       tilt
-    maxitest (1.0.3)
+    maxitest (1.1.2)
       minitest (>= 5.0.0, < 5.5.0)
     minitest (5.4.3)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    rack-test (0.6.2)
+    rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
     sinatra (1.4.5)
