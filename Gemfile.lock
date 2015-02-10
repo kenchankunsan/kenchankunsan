@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/eventmachine/eventmachine.git
-  revision: 6e569114e53260581ece697927088d104e966cf1
+  revision: 03224a60b3e3ceeda53883e6190e86c96e47c0d5
   specs:
-    eventmachine (1.0.4)
+    eventmachine (1.0.6)
 
 GEM
   remote: https://rubygems.org/
