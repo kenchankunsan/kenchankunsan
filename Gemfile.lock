@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/eventmachine/eventmachine.git
-  revision: 6dbdb97bada05d33a1f0d469a49d8c46ac2e77d0
+  revision: 98b0d480091fd12a4a1f9294f75a5903d9215e06
   specs:
     eventmachine (1.0.7)
 
@@ -10,10 +10,10 @@ GEM
     daemons (1.2.2)
     haml (4.0.6)
       tilt
-    maxitest (1.4.1)
-      minitest (>= 5.0.0, < 5.6.0)
-    minitest (5.5.1)
-    rack (1.6.0)
+    maxitest (1.5.0)
+      minitest (>= 5.0.0, < 5.7.0)
+    minitest (5.6.1)
+    rack (1.6.1)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
