@@ -8,7 +8,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     daemons (1.2.3)
-    haml (4.0.7)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     maxitest (1.5.4)
       minitest (>= 5.0.0, < 5.9.0)
@@ -25,11 +26,12 @@ GEM
       tilt (>= 1.3, < 3)
     sinatra-respond_to (0.9.0)
       sinatra (~> 1.3)
+    temple (0.8.2)
     thin (1.6.4)
       daemons (~> 1.0, >= 1.0.9)
       eventmachine (~> 1.0, >= 1.0.4)
       rack (~> 1.0)
-    tilt (2.0.1)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
